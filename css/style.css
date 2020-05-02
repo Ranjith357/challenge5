@@ -1,0 +1,303 @@
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* container-1 */
+#container-1 {
+  padding: 3% 5%;
+}
+
+.navigation {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+}
+
+.nav-list {
+  float: right;
+}
+
+.nav-items {
+  float: left;
+  padding: 0 20px;
+  display: inline-block;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+.illustration-1 {
+  width: 50%;
+  height: 400px;
+  margin: auto;
+}
+
+.title {
+  width: 100%;
+  display: flex;
+  flex-direction: row-reverse;
+  margin: 50px 0;
+}
+
+.title-heading {
+  padding: 0 40px 0 0;
+  width: 100%;
+  margin: auto;
+}
+
+.head {
+  font-size: 35px;
+  color: hsl(243, 87%, 12%);
+}
+
+.head-des {
+  color: hsl(243, 87%, 12%);
+}
+
+.btn-email {
+  height: 40px;
+  width: 300px;
+  border: 1px solid;
+  border-radius: 3px;
+  padding-left: 20px;
+}
+
+.btn-getstarted, .btn-getstarted2 {
+  height: 45px;
+  width: 200px;
+  border: 1px solid;
+  color: #fff;
+  background-color: hsl(224, 93%, 58%);
+  border-radius: 3px;
+  margin: 7px 0;
+  border-style: none;
+}
+
+/* container-2 */
+#container-2 {
+  background-image: url("../images/bg-curve-desktop.svg");
+  padding: 3% 5%;
+  color: hsl(243, 87%, 12%);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.contents {
+  width: 100%;
+  display: flex;
+  flex-direction: row-reverse;
+  margin: 50px 0;
+}
+
+.illustration-2 {
+  width: 50%;
+  height: 400px;
+  margin: auto;
+}
+
+.content-des {
+  width: 50%;
+}
+
+.head-2 {
+  font-size: 35px;
+  width: 100%;
+}
+
+.head2-des {
+  width: 90%;
+}
+
+.fylo-link {
+  color: hsl(170, 45%, 43%);
+  border-bottom: 1px solid hsl(170, 45%, 43%);
+}
+
+.founder {
+  width: 60%;
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 20px;
+  box-shadow: 0 0 8px grey;
+  margin: 50px 0;
+}
+
+.avatar-testimonial {
+  display: flex;
+}
+
+.avatar-icon {
+  border-radius: 100%;
+  width: 15%;
+  height: 15%;
+  margin: 10px 0;
+}
+
+.author {
+  margin: auto 5px;
+}
+
+/* container-3 */
+#container-3 {
+  padding: 5% 5%;
+  background-color: hsl(238, 22%, 44%);
+  color: #fff;
+  display: flex;
+}
+
+.part-1 {
+  width: 40%
+}
+
+.part-2 {
+  width: 50%;
+  margin: auto 0 auto 150px;
+}
+
+.part-2 .btn-email {
+  width: 80%;
+  padding-left: 20px;
+}
+
+.part-2 .btn-getstarted {
+  margin: 15px 0;
+  border-style: none;
+}
+
+/* container-4 */
+#container-4 {
+  background-color: hsl(243, 87%, 12%);
+  color: #fff;
+  padding: 7% 5%;
+}
+
+#container-4 a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.icons {
+  margin-right: 20px;
+}
+
+.social-icon {
+  font-size: 15px;
+  border-radius: 80%;
+  border: solid 1px #fff;
+  margin: 0 3px;
+  padding: 8px;
+  justify-content: center;
+}
+
+.logo-bottom {
+  filter: brightness(0) invert(1);
+  margin-bottom: 10px;
+}
+
+.bottom {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Footer */
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  color: #000;
+}
+
+.attribution a {
+  color: #000;
+}
+
+/* Media Query */
+@media(max-width:850px) {
+  .logo {
+    width: 25%;
+  }
+
+  .nav-items {
+    margin: 0;
+    padding: 0 10px;
+  }
+
+  .title {
+    width: 100%;
+    display: block;
+  }
+
+  .illustration-1, .illustration-2 {
+    padding: 50px 0;
+    height: auto;
+    width: 100%;
+  }
+
+  .title-heading {
+    text-align: center;
+  }
+
+  .btn-email {
+    width: 95%;
+  }
+
+  .btn-getstarted {
+    width: 100%;
+  }
+
+  .btn-getstarted2 {
+    width: 83%;
+  }
+
+  .contents {
+    width: 100%;
+    display: block;
+  }
+
+  .content-des, .head2-des {
+    text-align: center;
+    width: 100%;
+    margin: auto;
+  }
+
+  .founder {
+    text-align: left;
+    margin: 50px auto 70px;
+    width: 70%;
+  }
+
+  #container-3 {
+    display: block;
+    margin: auto;
+    text-align: center;
+    padding: 50px 5px;
+  }
+
+  .part-1, .part-2 {
+    width: 100%;
+    margin: auto;
+  }
+
+  .bottom {
+    display: block;
+  }
+
+  #container-4 {
+    padding: 50px 20px;
+  }
+
+  .call-1, .call-2, .call-3, .call-4 {
+    margin: 50px 0;
+  }
+
+  .call-4 {
+    text-align: center;
+    margin: auto;
+  }
+}
