@@ -251,6 +251,13 @@ a {
     width: 100%;
   }
 
+  #container-2 {
+    background-image: url("../images/bg-curve-mobile.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+   }
+
   .btn-getstarted2 {
     width: 83%;
   }
